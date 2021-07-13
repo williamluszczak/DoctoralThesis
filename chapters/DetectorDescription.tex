@@ -9,7 +9,7 @@ The cross section for neutrino interaction in Earth can be seen in figure \ref{f
     \label{mfp}
 \end{equation}
 
-Using the neutrino cross section near 1 PeV ($\sigma_{\nu} \approx 10^{-33}$ cm$^2$), and the density of the Earth ($\approx 5.5$ g/cm$^3$, corresponding to a nucleon density of $\rho_{Earth}=3.3 \times 10^{24}$ cm$^{-3}$), we obtain an estimate of the neutrino mean free path of $\approx 3000$ km. Since the diameter of the Earth is approximately $1.3 \times 10^4$ km, we can conclude that the Earth is opaque to high energy neutrinos. We can detect the neutrinos that interacted in the Earth by way of identifying their interaction products. 
+Using the neutrino cross section near 1 PeV ($\sigma_{\nu} \approx 1.15 \times 10^{-33}$ cm$^2$)~\cite{nuxsection}, and the density of the Earth ($\approx 5.5$ g/cm$^3$, corresponding to a nucleon density of $\rho_{Earth}=3.3 \times 10^{24}$ cm$^{-3}$), we obtain an estimate of the neutrino mean free path of $\approx 2600$ km. Since the diameter of the Earth is approximately $1.3 \times 10^4$ km, we can conclude that the Earth is opaque to high energy neutrinos. We can detect the neutrinos that interacted in the Earth by way of identifying their interaction products. 
 
 For the purposes of neutrino point source searches, we primarily focus on neutrinos interacting either through charged current (CC) or neutral current (NC) interactions. In both cases, the energy of the neutrinos observed by the IceCube detector is high enough that neutrinos interact through deep inelastic scattering with nucleons in the antarctic ice. In neutral current (NC) interactions, the process is mediated by a neutral Z boson, as shown on the left in figure \ref{fig:nuinteractions}. In this case, the product of the interaction is a neutrino, meaning the only visible signature of this interaction is the production of a hadronic particle cascade. 
 
@@ -66,9 +66,9 @@ As outlined in the previous section, the strategy for detecting neutrinos with a
 \label{fig:DOM}
 \end{figure}
 
-In IceCube, PMTs are housed in a single unit referred to as a digital optical module ("DOM"), seen in figure \ref{fig:DOM}. Each module contains the PMT and its associated electronics, as well as a set of LED flashers that can be used to calibrate the detector once the DOMs have been lowered into the ice. DOMs are arranged onto 86 vertical strings, 78 of which contain 60 DOMs spaced ~17 meters apart along the length of the string. These strings are arranged into a hexagonal grid pattern under the south pole ice with a separation between strings of approximately 125 meters, resulting in a cubic kilometer of instrumented ice extending between 1400 and 2400m below the surface of the south pole ice sheet. The remaining 8 strings form the DeepCore sub-array, a more densely instrumented region near the center of the detector, primarily used for studying lower ($\approx$100s of GeV) scale events. PMTs that are part of the DeepCore portion of the detector have a higher quantum efficiency than those on the other 78 strings \cite{deepcorepaper}.  
+In IceCube, PMTs are housed in a single unit referred to as a digital optical module ("DOM"), seen in figure \ref{fig:DOM}. Each module contains the PMT and its associated electronics, as well as a set of LED flashers that can be used to calibrate the detector once the DOMs have been lowered into the ice. DOMs are arranged onto 86 vertical strings, 78 of which contain 60 DOMs spaced ~17 meters apart along the length of the string. These strings are arranged into a hexagonal grid pattern under the south pole ice with a separation between strings of approximately 125 meters, resulting in a cubic kilometer of instrumented ice extending between 1450 and 2450m below the surface of the south pole ice sheet. The remaining 8 strings form the DeepCore sub-array, a more densely instrumented region near the center of the detector, primarily used for studying lower ($\approx$100s of GeV) scale events. PMTs that are part of the DeepCore portion of the detector have a higher quantum efficiency than those on the other 78 strings \cite{deepcorepaper}.  
 
-A diagram of the IceCube detector can be seen in figure \ref{fig:icecubediagram}. Due to the weakly interacting nature of neutrinos combined with a power law spectrum, a large detector volume is critical to detecting the astrophysical neutrino flux. Prior to IceCube's construction, calculations indicated that a cubic-kilometer scale detector would be necessary to observe an appreciable event rate of astrophysical neutrinos \cite{Halzen_2002}\cite{Waxman_1998}. The size and design of IceCube are well suited for detecting astrophysical neutrino events in the TeV+ energy range, as the large instrumented volume ensures a significant number of interactions in this energy range, and the detector's nanosecond scale timing resolution makes event reconstruction possible for events producing cherenkov radiation over the scale of $\approx$100s of meters. 
+A diagram of the IceCube detector can be seen in figure \ref{fig:icecubediagram}. Due to the weakly interacting nature of neutrinos combined with a power law spectrum, a large detector volume is critical to detecting the astrophysical neutrino flux. Prior to IceCube's construction, calculations based on the likely linkage of neutrinos to the observed high energy cosmic ray flux indicated that a cubic-kilometer scale detector would be necessary to observe an appreciable event rate of astrophysical neutrinos \cite{Halzen_2002}\cite{Waxman_1998}. The size and design of IceCube are well suited for detecting astrophysical neutrino events in the TeV+ energy range, as the large instrumented volume ensures a significant number of interactions in this energy range, and the detector's nanosecond scale timing resolution makes event reconstruction possible for events producing cherenkov radiation over the scale of $\approx$100s of meters. 
 
 \begin{figure}[h]
 \centering
@@ -85,8 +85,9 @@ The final major optical nonuniformity of the detector ice is the hole ice. Durin
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{figs/icedepth.png}
-\caption{Plots of the scattering and aborption of light as a function of depth in the south pole ice. The peak near a depth of 2000 meters is referred to as "the dust layer", and is thought to correspond to a layer of dust deposited at the south pole at some point in the Earth's history.  ~\cite{iceproceedings} }
+\includegraphics[width=0.8\textwidth]{figs/icedepth1.png}
+\includegraphics[width=0.8\textwidth]{figs/icedepth2.png}
+\caption{Plots of the absorption (top) and scattering (bottom) of 400 nm light as a function of depth in the south pole ice. The peak near a depth of 2000 meters is referred to as "the dust layer", and is thought to correspond to a layer of dust deposited at the south pole at some point in the Earth's history.  ~\cite{iceproceedings} }
 \label{fig:icedepth}
 \end{figure}
 
@@ -111,25 +112,27 @@ From equation \ref{ccinteraction1} we can see that charged current interactions 
 \end{figure}
 
 
-Through-going tracks are notable for their good angular resolution ($<$ 1 degree), particularly at high energies ($> 1$ TeV), as seen in figure \ref{fig:angres}. This makes them an excellent candidate for attempting to do astronomy, as the can be expected to point back to their point of origin with reasonable accuracy. Energy reconstruction of these events is somewhat more challenging, however, due to a combination of stochastic energy losses of the muon producing the cherenkov photons, and the fact that the event itself is often not entirely contained in the detector. The energy resolution of tracks in IceCube is approximately a factor of 2 at 10 TeV, though this increases for higher energy events \cite{10yrpublicdata}.
+Through-going tracks are notable for their good angular resolution (up to 0.25 degrees at high energies), particularly at high energies ($> 1$ TeV), as seen in figure \ref{fig:angres}. This makes them an excellent candidate for attempting to do astronomy, as the can be expected to point back to their point of origin with reasonable accuracy. Energy reconstruction of these events is somewhat more challenging, however, due to a combination of stochastic energy losses of the muon producing the cherenkov photons, and the fact that the event itself is often not entirely contained in the detector. The energy resolution of tracks in IceCube is approximately a factor of 2 at 10 TeV, though this increases for higher energy events \cite{10yrpublicdata}.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{figs/angres.png}
+\includegraphics[width=0.8\textwidth]{figs/angres.pdf}
 \caption{The median angle between simulated neutrino and reconstructed muon directions as a function of energy for various high-statistics IceCube samples composed of track events. The dark blue line corresponds to PSTracks v003p02, the light blue line corresponds to PSTracks v002p03, and the orange dashed line corresponds to NorthernTracks v002p06 (see section 1.7 for a description of these data samples). The solid lines describe events in the northern hemisphere, while the dashed lines are events in the southern hemisphere \cite{10yr_tint}\cite{NorthernTracks_PS}\cite{7yr_tint}.}
 \label{fig:angres}
 \end{figure}
 
 \subsection{Cascades}
-In CC interactions, the initial interaction produces a hadronic cascade regardless of the variety of outgoing lepton produced. If the outgoing lepton is an electron, the interaction length is relatively short, typically less than the 125 meter spacing of IceCube strings. Because of this, the resultant pattern of DOM hits in the detector is formed from the combined hadronic and electromagnetic showers. As the two showers occur at approximately the same spatial position, this appears to the detector as a single cascade. While due to their spherical symmetry cascades tend to have poor (10 degree or more) pointing resolution, they have excellent energy resolution, as even for high energy events, the entirety of the cascade is often contained within the detector, making energy reconstruction as simple as counting the total number of cherenkov photons produced. The energy resolution of cascades is approximately 15\%, potentially even lower at higher energies \cite{AustinThesis}.
+
+\color{red} Neutral current neutrino interactions will always produce a hadronic cascade and an outgoing neutrino which is not detectable. Charged current interactions will produce a hadronic cascade in addition to an outgoing lepton. If the outgoing lepton is a muon (or potentially an extremely energetic tau), the track morphology described above is produced. If the incident neutrino is a $\nu_e$, resulting in an outgoing electron, which in turn results in an electromagnetic shower that has an extension of $\approx$ 10 meters. The cascade morphology produced in this case is indistinguishable from the hadronic cascade produced by charged current interactions. While cascades tend to have relatively poor ($\approx 5^{\circ}$) pointing resolution~\cite{cascade_dnn_paper}\color{black} due to their spherical symmetry, they have excellent energy resolution, as even for high energy events, the entirety of the cascade is often contained within the detector, making energy reconstruction as simple as counting the total number of cherenkov photons produced. The energy resolution of cascades is approximately 15\%, potentially even lower at higher energies \cite{AustinThesis}.
+
 
 \subsection{Double Cascades}
-If the outgoing lepton from a CC interaction is a tau, then it may travel a relatively short distance before interacting again. If the initial tau is high enough energy, this can produce a signature of two spatially separated hadronic cascades in the detector. If the tau is lower energy, the two cascades may not be spatially resolvable, though may still be able to be identified by examining the waveforms observed by hit DOMs. This type of event was only recently observed in IceCube data \cite{taupaper}. Notably, tau events of these energies are not expected to be produced by atmospheric processes, and consequently this observation provides further evidence of an astrophysical neutrino flux. 
+If the outgoing lepton from a CC interaction is a tau, then the tau will decay with an average decay length of 50 meters/PeV, potentially observable above energies of 200 TeV. If the initial tau is high enough energy, this can produce a signature of two spatially separated hadronic cascades in the detector. If the tau is lower energy, the two cascades may not be spatially resolvable, though may still be able to be identified by examining the waveforms observed by hit DOMs. This type of event was only recently observed in IceCube data \cite{taupaper}. Notably, tau events of these energies are not expected to be produced by atmospheric processes, and consequently this observation provides further evidence of an astrophysical neutrino flux. 
 
 \section{Triggering}
-IceCube DOMs are subject to dark noise in the detector originating from PMTs emitting electrons from the cathode in the absence of an external photoelectron. This noise should not be correlated between nearby DOMs, and can be dramatically reduced by imposing the triggering requirement that neighboring DOMs also experience a signal with $\plusminus$ 1 $\mu s$. These hits are classified as "Hard Local Coincidence" (HLC). An eight-channel simple majority trigger (SMT8) is used to trigger a readout window where DOM information is written to file. This trigger requires eight DOMs to have HLC hits within a 5 $\mu$s window. 
+IceCube DOMs are subject to dark noise in the detector originating from PMTs emitting electrons from the cathode in the absence of an external photoelectron. Dark noise below $0^{\circ}$ celsius is primarily caused by radioactivity in the PMT and DOM glass. This noise should not be correlated between nearby DOMs, and can be dramatically reduced by imposing the triggering requirement that neighboring DOMs also experience a signal with $\plusminus$ 1 $\mu s$. These hits are classified as "Hard Local Coincidence" (HLC). An eight-channel simple majority trigger (SMT8) is used to trigger a readout window where DOM information is written to file. This trigger requires eight DOMs to have HLC hits within a 5 $\mu$s window. 
 
-Events are further filtered through several additional algorithms to pare down events based on temporal and spatial coincidence of DOM hits. The result is a "Level 2" event rate of approximately 2.5 kHz. These events can be additionally filtered to select specifically for high quality track-like events (originating mostly from atmospheric muons, but also from atmospheric and astrophysical muon neutrinos as well), reducing the event rate to ~Hz. This level of data is often referred to within the collaboration as "Muon Level 3", and primarily consists of through-going track-like events. 
+Events are further filtered through several additional algorithms to pare down events based on temporal and spatial coincidence of DOM hits. The result is a "Level 2" event rate of approximately 2.5 kHz. These events can be additionally filtered to select specifically for high quality track-like events (originating mostly from atmospheric muons, but also from atmospheric and astrophysical muon neutrinos as well), reducing the event rate to a few ~Hz. \color{red}The most relevant cuts that are used to achieve this are cuts on zenith and total charge deposited, which together form the IceCube "MuonFilter"~\cite{muonfilter_ref}\color{black}.  This level of data is often referred to within the collaboration as "Muon Level 3", and primarily consists of through-going track-like events. 
 
 \section{Directional Reconstruction}
 In this section we discuss algorithms for reconstructing the direction of through-going track events observed by the IceCube detector. Different algorithms may be used for cascades, though understanding these is unimportant for the remaining content of this thesis. Those who are interested in the reconstruction of cascade and double cascade events can refer to \cite{AustinThesis}.
@@ -211,7 +214,7 @@ As the Icecube detector is capable of doing a wide variety of science, there exi
 
 For this reason, point source event samples in the IceCube collaboration generally follow two different philosophies. "Low statistics/high purity" samples contain relatively few events, but the events in these samples have a high probability of being astrophysical in origin \cite{Estes} \cite{hese7yr}. By contrast "high statistics/low purity" samples contain a higher number of events, including additional astrophysical events. However in doing so, these samples also include significantly more atmospheric (background) events \cite{stettner2019measurement} \cite{10yr_tint}. In the context of point source searches, these samples typically rely on advanced statistical methods in their analysis pipeline to distinguish between clustered astrophysical signal and isotropic atmospheric background. 
 
-Even within the category of high statistics/low purity samples used for neutrino source searches, there exist multiple samples that are regularly used within the IceCube collaboration. The following sections will briefly outline three such samples that are relevant to the analyses presented later in this work.  
+Even within the category of high statistics/low purity samples used for neutrino source searches, there exist multiple samples that are regularly used within the IceCube collaboration. The following sections will briefly outline three such samples that are relevant to the analyses presented later in this work.  A comparison of the three samples outlined here can be seen in table~\ref{tab:evtsamples} and figure~\ref{fig:sampledists}
 
 \subsection{PointSourceTracks v002p03}
 Starting with Muon level 3 data, this sample applies an additional BDT to attempt to select for well-reconstructed muon neutrino interactions from mis-reconstructed atmospheric muon background. The variables used in this BDT were associated with a track-like event topology, and the BDT was trained using both background data, as well as simulation of both an $E^{-2.0}$ and $E^{-2.7}$ signal. The result is a high-statistics sample of mostly track-like neutrino events in the northern sky, consisting of both atmospheric and astrophysical neutrinos \cite{7yr_tint}. Events in this sample use a SplineMPE reconstruction ("plain" settings, corresponding to a balance of computation time and precision) for the event direction, and a MuEX reconstruction for the event energy.
@@ -243,11 +246,10 @@ The precuts for this sample in the northern sky are identical to PointSourceTrac
 
 This sample uses a SplineMPE directional reconstruction (with "max" settings, prioritizing precision over computation speed), and a TruncatedEnergy estimator as the energy reconstruction. 
 
-A comparison of the three samples outlined here can be seen in table \ref{tab:evtsamples}
 
 \begin{sidewaystable}
 \centering
-\begin{tabular*}{0.865\textwidth}{|c|ccc|} 
+\begin{tabular*}{0.853\textwidth}{|c|ccc|} 
 \hline
 . & PSTracks v2 & PSTracks v3 & NorthernTracks\\
 \hline\hline
@@ -261,9 +263,20 @@ Angular error estimator & Paraboloid & Paraboloid & Paraboloid \\
 Energy estimator & MuEX & MuEX & TruncatedEnergy \\ 
 DeepCore included? & Yes & Yes & No \\
 Livetime & 7 years (2008-2015) & 10 years (2008-2018) & 8 years (2009-2017) \\
+Declination Range & $-90^{\circ}<\delta<90^{\circ}$ & $-90^{\circ}<\delta<90^{\circ}$ & $-5^{\circ}<\delta<90^{\circ}$ \\
+Events & 711,878 & 1,134,451 & 493,252 \\
 \hline
 \end{tabular*}
 \label{tab:evtsamples}
 \caption{A comparison of several similar high statistics/low purity event samples used by the IceCube collaboration}
 \end{sidewaystable}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.3\textwidth]{figs/sample_decs.png}
+\includegraphics[width=0.3\textwidth]{figs/sample_es.png}
+\includegraphics[width=0.3\textwidth]{figs/sample_sigmas.png}
+\caption{Distributions of the event variables in the three samples discussed in this section. The NorthernTracks sample does not contain events in the southern sky, as can be seen in the declination distribution on the left. This additionally has the effect of altering the overall energy proxy distribution for the sample, as the higher-energy peak in the energy proxy distribution for the PointSourceTracks samples is composed primarily of high energy southern sky events. }
+\label{fig:sampledists}
+\end{figure}
 

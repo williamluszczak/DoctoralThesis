@@ -131,6 +131,11 @@ Kohta Murase and Eli Waxman.
   prospects.
 \newblock {\em Physical Review D}, 94(10), Nov 2016.
 
+\bibitem{nuxsection}
+J.~A. Formaggio and G.~P. Zeller.
+\newblock From ev to eev: Neutrino cross sections across energy scales.
+\newblock {\em Reviews of Modern Physics}, 84(3):1307–1341, Sep 2012.
+
 \bibitem{IceCubeGlashow}
 M.~G. Aartsen et~al.
 \newblock {Detection of a particle shower at the Glashow resonance with
@@ -201,10 +206,83 @@ M.~G. Aartsen, K.~Abraham, M.~Ackermann, J.~Adams, J.~A. Aguilar, M.~Ahlers,
   astrophysical sources with 7 yr of icecube data.
 \newblock {\em The Astrophysical Journal}, 835(2):151, Jan 2017.
 
+\bibitem{cascade_dnn_paper}
+R.~Abbasi, M.~Ackermann, J.~Adams, J.~A. Aguilar, M.~Ahlers, M.~Ahrens,
+  C.~Alispach, A.~A. Alves~Jr. au2, N.~M. Amin, R.~An, K.~Andeen, T.~Anderson,
+  I.~Ansseau, G.~Anton, C.~Argüelles, S.~Axani, X.~Bai, A.~Balagopal V.,
+  A.~Barbano, S.~W. Barwick, B.~Bastian, V.~Basu, V.~Baum, S.~Baur, R.~Bay,
+  J.~J. Beatty, K.~H. Becker, J.~Becker Tjus, C.~Bellenghi, S.~BenZvi,
+  D.~Berley, E.~Bernardini, D.~Z. Besson, G.~Binder, D.~Bindig, E.~Blaufuss,
+  S.~Blot, S.~Böser, O.~Botner, J.~Böttcher, E.~Bourbeau, J.~Bourbeau,
+  F.~Bradascio, J.~Braun, S.~Bron, J.~Brostean-Kaiser, A.~Burgman, R.~S. Busse,
+  M.~A. Campana, C.~Chen, D.~Chirkin, S.~Choi, B.~A. Clark, K.~Clark,
+  L.~Classen, A.~Coleman, G.~H. Collin, J.~M. Conrad, P.~Coppin, P.~Correa,
+  D.~F. Cowen, R.~Cross, P.~Dave, C.~De Clercq, J.~J. DeLaunay, H.~Dembinski,
+  K.~Deoskar, S.~De Ridder, A.~Desai, P.~Desiati, K.~D. de~Vries,
+  G.~de~Wasseige, M.~de~With, T.~DeYoung, S.~Dharani, A.~Diaz, J.~C.
+  Díaz-Vélez, H.~Dujmovic, M.~Dunkman, M.~A. DuVernois, E.~Dvorak,
+  T.~Ehrhardt, P.~Eller, R.~Engel, J.~Evans, P.~A. Evenson, S.~Fahey, A.~R.
+  Fazely, S.~Fiedlschuster, A.~T. Fienberg, K.~Filimonov, C.~Finley,
+  L.~Fischer, D.~Fox, A.~Franckowiak, E.~Friedman, A.~Fritz, P.~Fürst, T.~K.
+  Gaisser, J.~Gallagher, E.~Ganster, S.~Garrappa, L.~Gerhardt, A.~Ghadimi,
+  C.~Glaser, T.~Glauch, T.~Glüsenkamp, A.~Goldschmidt, J.~G. Gonzalez,
+  S.~Goswami, D.~Grant, T.~Grégoire, Z.~Griffith, S.~Griswold, M.~Gündüz,
+  C.~Haack, A.~Hallgren, R.~Halliday, L.~Halve, F.~Halzen, M.~Ha Minh,
+  K.~Hanson, J.~Hardin, A.~A. Harnisch, A.~Haungs, S.~Hauser, D.~Hebecker,
+  K.~Helbing, F.~Henningsen, E.~C. Hettinger, S.~Hickford, J.~Hignight,
+  C.~Hill, G.~C. Hill, K.~D. Hoffman, R.~Hoffmann, T.~Hoinka,
+  B.~Hokanson-Fasig, K.~Hoshina, F.~Huang, M.~Huber, T.~Huber, K.~Hultqvist,
+  M.~Hünnefeld, R.~Hussain, S.~In, N.~Iovine, A.~Ishihara, M.~Jansson, G.~S.
+  Japaridze, M.~Jeong, B.~J.~P. Jones, R.~Joppe, D.~Kang, W.~Kang, X.~Kang,
+  A.~Kappes, D.~Kappesser, T.~Karg, M.~Karl, A.~Karle, U.~Katz, M.~Kauer,
+  M.~Kellermann, J.~L. Kelley, A.~Kheirandish, J.~Kim, K.~Kin, T.~Kintscher,
+  J.~Kiryluk, S.~R. Klein, R.~Koirala, H.~Kolanoski, L.~Köpke, C.~Kopper,
+  S.~Kopper, D.~J. Koskinen, P.~Koundal, M.~Kovacevich, M.~Kowalski, K.~Krings,
+  G.~Krückl, N.~Kurahashi, A.~Kyriacou, C.~Lagunas Gualda, J.~L. Lanfranchi,
+  M.~J. Larson, F.~Lauber, J.~P. Lazar, K.~Leonard, A.~Leszczyńska, Y.~Li,
+  Q.~R. Liu, E.~Lohfink, C.~J.~Lozano Mariscal, L.~Lu, F.~Lucarelli, A.~Ludwig,
+  W.~Luszczak, Y.~Lyu, W.~Y. Ma, J.~Madsen, K.~B.~M. Mahn, Y.~Makino,
+  P.~Mallik, S.~Mancina, I.~C. Mari{ş}, R.~Maruyama, K.~Mase, F.~McNally,
+  K.~Meagher, A.~Medina, M.~Meier, S.~Meighen-Berger, J.~Merz, J.~Micallef,
+  D.~Mockler, G.~Momenté, T.~Montaruli, R.~W. Moore, K.~Morik, R.~Morse,
+  M.~Moulai, R.~Naab, R.~Nagai, U.~Naumann, J.~Necker, L.~V. Nguy{\~{ê}}n,
+  H.~Niederhausen, M.~U. Nisa, S.~C. Nowicki, D.~R. Nygren, A.~Obertacke
+  Pollmann, M.~Oehler, A.~Olivas, E.~O'Sullivan, H.~Pandya, D.~V. Pankova,
+  N.~Park, G.~K. Parker, E.~N. Paudel, P.~Peiffer, C.~Pérez de~los Heros,
+  S.~Philippen, D.~Pieloth, S.~Pieper, A.~Pizzuto, M.~Plum, Y.~Popovych,
+  A.~Porcelli, M.~Prado Rodriguez, P.~B. Price, B.~Pries, G.~T. Przybylski,
+  C.~Raab, A.~Raissi, M.~Rameez, K.~Rawlins, I.~C. Rea, A.~Rehman, R.~Reimann,
+  M.~Renschler, G.~Renzi, E.~Resconi, S.~Reusch, W.~Rhode, M.~Richman,
+  B.~Riedel, S.~Robertson, G.~Roellinghoff, M.~Rongen, C.~Rott, T.~Ruhe,
+  D.~Ryckbosch, D.~Rysewyk Cantu, I.~Safa, S.~E.~Sanchez Herrera, A.~Sandrock,
+  J.~Sandroos, M.~Santander, S.~Sarkar, S.~Sarkar, K.~Satalecka, M.~Scharf,
+  M.~Schaufel, H.~Schieler, P.~Schlunder, T.~Schmidt, A.~Schneider,
+  J.~Schneider, F.~G. Schröder, L.~Schumacher, S.~Sclafani, D.~Seckel,
+  S.~Seunarine, A.~Sharma, S.~Shefali, M.~Silva, B.~Skrzypek, B.~Smithers,
+  R.~Snihur, J.~Soedingrekso, D.~Soldin, G.~M. Spiczak, C.~Spiering,
+  J.~Stachurska, M.~Stamatikos, T.~Stanev, R.~Stein, J.~Stettner, A.~Steuer,
+  T.~Stezelberger, R.~G. Stokstad, T.~Stürwald, T.~Stuttard, G.~W. Sullivan,
+  I.~Taboada, F.~Tenholt, S.~Ter-Antonyan, S.~Tilav, F.~Tischbein,
+  K.~Tollefson, L.~Tomankova, C.~Tönnis, S.~Toscano, D.~Tosi, A.~Trettin,
+  M.~Tselengidou, C.~F. Tung, A.~Turcati, R.~Turcotte, C.~F. Turley, J.~P.
+  Twagirayezu, B.~Ty, M.~A.~Unland Elorrieta, N.~Valtonen-Mattila,
+  J.~Vandenbroucke, D.~van Eijk, N.~van Eijndhoven, D.~Vannerom, J.~van Santen,
+  S.~Verpoest, M.~Vraeghe, C.~Walck, A.~Wallace, T.~B. Watson, C.~Weaver,
+  A.~Weindl, M.~J. Weiss, J.~Weldert, C.~Wendt, J.~Werthebach, M.~Weyrauch,
+  B.~J. Whelan, N.~Whitehorn, K.~Wiebe, C.~H. Wiebusch, D.~R. Williams,
+  M.~Wolf, K.~Woschnagg, G.~Wrede, J.~Wulff, X.~W. Xu, Y.~Xu, J.~P. Yanez,
+  S.~Yoshida, T.~Yuan, and Z.~Zhang.
+\newblock A convolutional neural network based cascade reconstruction for the
+  icecube neutrino observatory, 2021.
+
 \bibitem{taupaper}
 R.~Abbasi et.al.
 \newblock Measurement of astrophysical tau neutrinos in icecube's high-energy
   starting events, 2020.
+
+\bibitem{muonfilter_ref}
+IceCube Collaboration.
+\newblock Icecube muon filter for 2010 pole season, 2010.
 
 \bibitem{track_reco_paper}
 J.~Ahrens, X.~Bai, R.~Bay, S.W. Barwick, T.~Becka, J.K. Becker, K.-H. Becker,
@@ -285,6 +363,10 @@ Andrea Zonca, Leo~P. Singer, Daniel Lenz, Martin Reinecke, Cyrille Rosset, Eric
 \newblock healpy: equal area pixelization and spherical harmonics transforms
   for data on the sphere in python.
 \newblock {\em Journal of Open Source Software}, 4(35):1298, 2019.
+
+\bibitem{firesong_ref}
+https://github.com/ChrisCFTung/FIRESONG.
+\newblock Icecube muon filter for 2010 pole season, 2021.
 
 \bibitem{Hopkins_2006}
 Andrew~M. Hopkins and John~F. Beacom.
