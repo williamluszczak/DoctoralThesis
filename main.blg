@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: example.aux
+A level-1 auxiliary file: chapters/Introduction.aux
+A level-1 auxiliary file: chapters/ScienceBackground.aux
+A level-1 auxiliary file: chapters/DetectorDescription.aux
+A level-1 auxiliary file: chapters/Methods.aux
+A level-1 auxiliary file: chapters/CatalogSearches.aux
+A level-1 auxiliary file: chapters/Skymap.aux
+A level-1 auxiliary file: chapters/Outro.aux
+A level-1 auxiliary file: chapters/Stats.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--empty author in astroneutrinos
+Warning--empty school in AustinThesis
+Warning--empty year in AustinThesis
+Warning--empty year in pimenta_partphys
+Warning--empty year in pimenta_partphys_compton
+Warning--empty journal in 10yrpublicdata
+Warning--empty journal in hese7yr
+Warning--empty school in TessaThesis
+Warning--empty year in TessaThesis
+You've used 52 entries,
+            1791 wiz_defined-function locations,
+            758 strings with 19131 characters,
+and the built_in function-call counts, 17298 in all, are:
+= -- 927
+> -- 1928
+< -- 3
++ -- 665
+- -- 613
+* -- 1766
+:= -- 3185
+add.period$ -- 149
+call.type$ -- 52
+change.case$ -- 47
+chr.to.int$ -- 0
+cite$ -- 61
+duplicate$ -- 483
+empty$ -- 1110
+format.name$ -- 613
+if$ -- 3407
+int.to.chr$ -- 0
+int.to.str$ -- 52
+missing$ -- 44
+newline$ -- 254
+num.names$ -- 51
+pop$ -- 144
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 259
+stack$ -- 0
+substring$ -- 686
+swap$ -- 107
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 9
+while$ -- 85
+width$ -- 54
+write$ -- 540
+(There were 9 warnings)

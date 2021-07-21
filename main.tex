@@ -1,0 +1,108 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% The uwthesis.sty file relies on the memoir class!
+%%%% You should be using the memoir class anyway; it makes life easier:
+%%%% http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/
+\documentclass[oneside, letterpaper, 12pt, oldfontcommands]{memoir}
+
+%%%% Import uwthesis.sty to get official formatting, then set your variables.
+\usepackage{uwthesis}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{lineno}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage[capitalise]{cleveref}
+\renewbibmacro*{bbx:savehash}{}
+\addbibresource{references.bib}
+\setlrmarginsandblock{1in}{1in}{*}
+\setulmarginsandblock{1in}{1in}{*}
+\checkandfixthelayout
+\setsecnumdepth{paragraph}
+\maxtocdepth{subsection}
+
+%\nolinenumbers{}
+\linenumbers
+
+\settitle{Every Flare, Everywhere: Untriggered Searches for Astrophysical Neutrino Transients Using Data From the IceCube Detector}
+\setauthor{William Luszczak}
+\setdepartment{Physics}
+\doctors % or \masters
+\setgraddate{2021}
+\setdefensedate{16 August 2021} % or whatever format you want
+
+%%%% Members of the Final Oral Committee (FOC)
+%%%% Give name, rank, and department
+%%%% 
+\setfoca{Albrecht Karle}{Professor}{Physics} % <- Your advisor
+\setfocb{Keith Bechtol}{Assitant Professor}{Physics}
+\setfocc{Ke Fang}{Assistant Professor}{Physics}
+\setfocd{Sebastian Heinz}{Professor}{Astronomy}
+
+%%%% Your abstract, used for the UMI abstract and in your front matter
+\setabstract{%
+  Recent results from the IceCube collaboration regarding the blazar TXS 0506+056 suggest the presence of neutrino flares that are not temporally coincident with a significant corresponding gamma ray flare. Such flares are particularly difficult to identify, as their presence must be inferred from the temporal distribution of neutrino data alone. While previously existing statistical methods fit for only the largest neutrino flare candidate at a particular location, this work introduces an extension to fit for the contributions from multiple flare candidates at once, thereby increasing the sensitivity to sub-threshold neutrino flares. The need for a multiple flare fit is further motivated by the increasing duration of the IceCube data available for analysis. In this work, this "multi-flare" method is applied to data from the IceCube Neutrino Observatory using two different source catalogs to explore emission from candidates similar to TXS 0506+056. This method is additionally used to create a "multi-flare" skymap, describing the temporal variability of IceCube data at every point in the neutrino sky. These results can be used to place further constraints on potential populations of transient neutrino sources, serving as a complement to existing time-integrated and time-dependent methods.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Tell the memoir class to set up lowercase roman for pagination, etc.
+\frontmatter
+
+%%%% Uncomment this to create a UMI abstract page.
+%%%% If you are submitting electronically, however, this page is unnecessary.
+% \theumiabstract
+
+% The title page
+\thetitlepage
+\clearpage
+
+% The copyright page, if you want to pay the fee and register copyright.
+\thecopyrightpage
+\cleardoublepage
+
+% These above pages should not be counted, so we reset the counter to 1.
+\setcounter{page}{1}
+
+% An abstract may be required by your department.
+\section{Abstract}
+\uwabstract
+\cleardoublepage
+
+% Acknowledgements go here if you want to include them.
+\section{Acknowledgements}
+I'd like to thank the academy...
+\clearpage
+
+% Table of contents
+\maxtocdepth{subsection}
+\tableofcontents* % the * means that there isn't an entry for the TOC itself
+% \clearpage
+% \listoffigures  % if you have any figures
+% \clearpage
+% \listoftables   % if you have any tables
+
+% Tell the memoir class to set up normal pagination, etc. for the main doc
+\mainmatter
+
+\include{chapters/Introduction}
+\include{chapters/ScienceBackground}
+\include{chapters/DetectorDescription}
+\include{chapters/Methods}
+\include{chapters/CatalogSearches}
+\include{chapters/Skymap}
+\include{chapters/Outro}
+\include{chapters/Stats}
+
+\footnotesize \bibliography{references}{}
+\bibliographystyle{unsrt}
+\end{document}
