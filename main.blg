@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: example.aux
+The top-level auxiliary file: main.aux
 A level-1 auxiliary file: chapters/Introduction.aux
 A level-1 auxiliary file: chapters/ScienceBackground.aux
 A level-1 auxiliary file: chapters/DetectorDescription.aux
@@ -22,7 +22,7 @@ Warning--empty school in TessaThesis
 Warning--empty year in TessaThesis
 You've used 52 entries,
             1791 wiz_defined-function locations,
-            758 strings with 19131 characters,
+            758 strings with 19125 characters,
 and the built_in function-call counts, 17298 in all, are:
 = -- 927
 > -- 1928

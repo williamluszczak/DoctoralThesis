@@ -64,8 +64,9 @@ The energy component of $S_i$ is obtained from simulation: Simulated events are 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{figs/sig_hists.png}
-\caption{Signal PDFs associated with a $\gamma=2.0$ spectral index hypothesis, assembled from PSTracks v002p03. Similar PDFs are constructed for spectral indices ranging from $\gamma=1.0$ to $\gamma=4.0$, thereby constructing a 3-D PDF that can be used in the point source likelihood.}
+\includegraphics[width=0.4\textwidth]{figs/sigsimgam2.png}
+\includegraphics[width=0.4\textwidth]{figs/sigsimgam3.png}
+\caption{Distributions of simulated signal events in PointSourceTracks v003p02 for $E^{-2.0}$ (left) and $E^{-3.0}$ (right) spectra. The ratio of these distributions to the background expectation is then used to calculate the combined spatial and energy 2D PDF ratio ($S(r_i, E_i)/B(r_i, E_i)$) for a particular spectral index hypothesis. Similar distributions can be made for spectral indices ranging from $\gamma=1.0$ to $\gamma=4.0$, allowing for the signal spectral index to be fit by the likelihood.}
 \label{fig:SigPDf}
 \end{figure}
 
@@ -91,7 +92,7 @@ Where $p(k)$ is the p-value associated with combining the results of the $k$ mos
 
 
 \section{Unbinned Time-Dependent Methods}
-In addition to being clustered in space, astrophysical neutrino events may also be clustered in time (a neutrino "flare"). Accounting for this temporal clustering may allow us to identify sources that are insignificant under a corresponding time integrated analysis. Studying the temporal variation of source candidates can also inform us of the specifics of the source dynamics of particle production, as the time scale of observed flares is related to the physical scale of the astrophysical objects in which particle production is occurring. This method was used in ~\cite{txs_archival} to identify the 2014 neutrino flare candidate with a significance of $3.5 \sigma$. 
+In addition to being clustered in space, astrophysical neutrino events may also be clustered in time (a neutrino "flare"). Accounting for this temporal clustering may allow us to identify sources that are insignificant under a corresponding time integrated analysis. Studying the temporal variation of source candidates can also inform us of the specifics of the source dynamics of particle production, as the time scale of observed flares is related to the physical scale of the astrophysical objects in which particle production is occurring. This method was used in ~\cite{TXS_Archival} to identify the 2014 neutrino flare candidate with a significance of $3.5 \sigma$. 
 
 \subsection{Optimizing for a Single Flare}
 We can modify our time-integrated likelihood to account for potential temporal clustering as well by simply appending a temporal PDF to the existing PDFs that describe the spatial and energy components of the analysis (eq. \ref{tmodllh1}, \ref{tmodllh2}):
@@ -102,11 +103,11 @@ We can modify our time-integrated likelihood to account for potential temporal c
 \end{equation}
 
 \begin{equation}
-    B_i = \frac{1}{\Omega}\times \mathcal{E}(E_i,\delta_i|Atm_{\nu}) \times \frac{1}{\delta T}
+    B_i = \frac{1}{\Omega}\times \mathcal{E}(E_i,\delta_i|Atm_{\nu}) \times \frac{1}{\Delta T}
     \label{tmodllh2}
 \end{equation}
 
-Where $\delta T$ is the full livetime of the sample, and the associated temporal background PDF is $1/\delta T$, as the background event rate should be constant. In practice, this is assembled in a data-driven manner by measuring the data sample event rate in each of the 8-hour segments ("runs") that are used to segment the data. In this way, seasonal variations of the detector event rate are accounted for by the likelihood, as the flare candidates are always being compared to the local event rate in time.
+Where $\Delta T$ is the full livetime of the sample, and the associated temporal background PDF is $1/\Delta T$, as the background event rate should be constant. In practice, this is assembled in a data-driven manner by measuring the data sample event rate in each of the 8-hour segments ("runs") that are used to segment the data. In this way, seasonal variations of the detector event rate are accounted for by the likelihood, as the flare candidates are always being compared to the local event rate in time.
 
 \begin{figure}[h]
 \centering
@@ -154,7 +155,7 @@ In simulated signal trials, the likelihood-based flare test statistic is able to
 
 
 \subsection{Improving the Search for Temporal Clustering: Fitting Ensembles of Multiple Flares}
-As the IceCube detector collects more data, it becomes increasingly useful to be able to test the hypothesis of multiple neutrino flares that may have occurred at a particular location. Fitting only the largest flare is advantageous if the source flare rate is expected to be low enough that sources only flare once over the data-taking period, however if sources flare multiple times the single-flare analysis potentially misses a significant amount of useful information. \color{red}By incorporating information from multiple flares at a particular location, an analysis can be sensitive to a smaller individual flare intensity. This is analagous to spatial stacking analyses, as can be seen in table~\ref{tab:stresults}, but we have additionally improved our algorithm to stack \textit{flares} instead of just spatial source candidates. In this section we discuss the construction of this method, and the following sections describe the results of the first applications of this method to various source catalogs. \color{black}
+As the IceCube detector collects more data, it becomes increasingly useful to be able to test the hypothesis of multiple neutrino flares that may have occurred at a particular location. Fitting only the largest flare is advantageous if the source flare rate is expected to be low enough that sources only flare once over the data-taking period, however if sources flare multiple times the single-flare analysis potentially misses a significant amount of useful information. \color{red}By incorporating information from multiple flares at a particular location, an analysis can be sensitive to a smaller individual flare intensity. This is analagous to spatial stacking analyses, as can be seen in table~\ref{tab:anatable}, but we have additionally improved our algorithm to stack \textit{flares} instead of just spatial source candidates. In this section we discuss the construction of this method, and the following sections describe the results of the first applications of this method to various source catalogs. \color{black}
 
 The process of fitting multiple flares at a particular source candidate location is similar to the single-flare maximization procedure described above. Flare candidates are seeded by events with a high $S_i/B_i$ ratio near the candidate location. For each flare candidate, the test statistic described in equation \ref{psts_tdep} is calculated. Unlike the single flare case, these flare candidates are then ordered by decreasing test statistic value, and any flares that overlap in time with a different flare that itself has a higher test statistic are removed. Additionally, any flares with a test statistic $< 0$ are removed. What remains is a temporally decorrelated ensemble of flare candidates, each with $TS>0.$. This ensemble functions as a neutrino "flare curve" (similar to light curves produced by photon-based telescopes), that describes the temporal variability of the signal originating from a source candidate location. A "multi-flare" test statistic describing the significance of the temporal variability of this source candidate can then be calculated as the sum of the individual flare candidate test statistics (eq. \ref{multiflareTS}):
 
