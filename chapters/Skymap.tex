@@ -152,6 +152,29 @@ Similar to NGC 1068, PKS 1424+240 does not display significant temporal clusteri
 \label{fig:othertints}
 \end{figure}
 
+
+\subsubsection{Follow-up of the ANTARES Source Candidate J0242+1101}
+\textit{Author note: Due to the timing of the request for this follow-up, this section was added ~1 week before the submission of this thesis. Results are very preliminary, but I've included it because I think it's a nice example of how these multi-flare fits can be used to cross check results from other neutrino telescopes}
+
+The ANTARES telescope~\cite{antarescollaboration2011antares} is a water cherenkov telescope, similar to IceCube, but located in the Mediterranean sea instead of the at the South Pole. It is significantly smaller than the IceCube detector, consisting of only 12 lines of 25 optical modules each. The location of ANTARES in the northern hemisphere makes it ideal for studying astrophysical neutrino events from the southern sky, as the Earth absorbs the atmospheric muon background in this region, similar to how IceCube is more sensitive to events from the northern sky. 
+
+Though ANTARES does not fit for a significant astrophysical diffuse flux ~\cite{Albert_2018}, the collaboration has still performed searches for point sources of astrophysical neutrinos. Notably, at the most recent International Cosmic Ray Conference (2021)\footnotemark, the ANTARES collaboration presented a temporally untriggered search for correlations between radio-bright blazars and neutrino flare candidates in ANTARES data~\cite{Illuminati:202198}. The ANTARES collaboration noted that one of their most significant candidates, J0242+1101, overlapped with the detection of a high-energy IceCube event, and contacted the IceCube collaboration for follow-up.
+
+It should be noted that the ANTARES results on their own are not statistically significant: the most significant source candidate has a post-trial p-value of only 40\%, and only 7 source candidates have pre-trial significances greater than $3\sigma$ (equivalent to the background expectation when testing 2774 sources). Nonetheless, for the sake of completeness, the IceCube collaboration assembled a followup analysis, of which the multi-flare fits shown below were a part. 
+
+Since multi-flare fits were created for the entire sky as part of the multi-flare skymap analysis described above, follow-up is potentially as easy as pulling the appropriate flare curve from the stored skymap file containing flare fits at every location. However, for the sake of completeness, in this particular case the multi-flare analysis was re-run at the exact location of the ANTARES source candidate (J0242+1101, RA=$40.62^{\circ}$, Dec=$11.01^{\circ}$), in addition to modifying the flare candidate seeding procedure to ensure that flare candidates with durations up to $\Delta t=1000$ days were tested.  
+
+The results of the multi-flare followup for J0242+1101 can be seen in figure~\ref{fig:J0242}. No significant flares were fit, with the largest flare candidate in IceCube data having a local significance of only $p=0.31$. There was also not an excess of flares observed, with the pre-trial multi-flare significance of this location being $p=0.52$. The 50 TeV IceCube event that was noted by ANTARES in ~\cite{Illuminati:202198} does not appear to be significant in the timing distribution of Icecube events, as the flare search algorithm as unsucessful in pairing that event up with other IceCube events to fit a significant flare. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{figs/J0242+1101.png}
+\caption{The flare curve at the location of J0242+1101, a source candidate that was identified as potentially interesting by the ANTARES collaboration. The results of the untriggered flare fits performed by the ANTARES collaboration are shown in orange, while the blue shows the IceCube data (top-panel), and corresponding multi-flare fit (bottom panel). There does not appear to be a flare as strong as the reported ANTARES flare in IceCube data, with the IceCube multi-flare followup presented here returning a p-value of only $p=0.52$.}
+\label{fig:J0242}
+\end{figure}
+
+\footnotetext{https://icrc2021.desy.de/}
+
 \subsubsection{TXS 0506+056}
 In addition to being part of the excess that was identified in the all-sky time-integrated analysis, TXS 0506+056 is notable for both the multi-messenger coincidence sparked by the high energy IceCube alert IC-170922A~\cite{TXS_Multimessenger}, as well as the archival analysis that revealed a $3.5 \sigma$ neutrino flare that occurred in 2014, prior to the 2017 high energy alert event~\cite{TXS_Archival}.
 

@@ -27,13 +27,6 @@ M. G. Aartsen, M.~Ackermann, J.~Adams, J. A. Aguilar, M.~Ahlers, M.~Ahrens,
   data.
 \newblock {\em Physical Review Letters}, 124(5), Feb 2020.
 
-\bibitem{2lac_ic}
-M.~G. Aartsen, K.~Abraham, M.~Ackermann, J.~Adams, J.~A. Aguilar, M.~Ahlers,
-  M.~Ahrens, D.~Altmann, K.~Andeen, T.~Anderson, and et~al.
-\newblock The contribution offermi-2lac blazars to diffuse tev–pev neutrino
-  flux.
-\newblock {\em The Astrophysical Journal}, 835(1):45, Jan 2017.
-
 \bibitem{AustinThesis}
 Austin~William Schneider.
 \newblock {\em Precision measurements of the astrophysical neutrino flux}.
@@ -346,6 +339,13 @@ M.~Ackermann, M.~Ajello, W.~B. Atwood, L.~Baldini, J.~Ballet, G.~Barbiellini,
   area telescope.
 \newblock {\em The Astrophysical Journal}, 810(1):14, Aug 2015.
 
+\bibitem{2lac_ic}
+M.~G. Aartsen, K.~Abraham, M.~Ackermann, J.~Adams, J.~A. Aguilar, M.~Ahlers,
+  M.~Ahrens, D.~Altmann, K.~Andeen, T.~Anderson, and et~al.
+\newblock The contribution offermi-2lac blazars to diffuse tev–pev neutrino
+  flux.
+\newblock {\em The Astrophysical Journal}, 835(1):45, Jan 2017.
+
 \bibitem{fermi3fgl}
 LAT Collaboration.
 \newblock Fermi large area telescope third source catalog, 2015.
@@ -372,6 +372,23 @@ https://github.com/ChrisCFTung/FIRESONG.
 Andrew~M. Hopkins and John~F. Beacom.
 \newblock On the normalization of the cosmic star formation history.
 \newblock {\em The Astrophysical Journal}, 651(1):142–154, Nov 2006.
+
+\bibitem{antarescollaboration2011antares}
+ANTARES Collaboration.
+\newblock Antares: the first undersea neutrino telescope, 2011.
+
+\bibitem{Albert_2018}
+A.~Albert, M.~André, M.~Anghinolfi, G.~Anton, M.~Ardid, J.-J. Aubert,
+  J.~Aublin, T.~Avgitas, B.~Baret, J.~Barrios-Martí, and et~al.
+\newblock All-flavor search for a diffuse flux of cosmic neutrinos with nine
+  years of antares data.
+\newblock {\em The Astrophysical Journal}, 853(1):L7, Jan 2018.
+
+\bibitem{Illuminati:202198}
+Giulia Illuminati and Alexander Plavin.
+\newblock {ANTARES search for neutrino flares from the direction of
+  radio-bright blazars}.
+\newblock {\em PoS}, ICRC2021:972, 2021.
 
 \bibitem{barlow_1989}
 R~J Barlow.
