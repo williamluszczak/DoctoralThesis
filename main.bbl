@@ -27,6 +27,24 @@ M. G. Aartsen, M.~Ackermann, J.~Adams, J. A. Aguilar, M.~Ahlers, M.~Ahrens,
   data.
 \newblock {\em Physical Review Letters}, 124(5), Feb 2020.
 
+\bibitem{IC_HAWC_GP}
+M.~G. Aartsen, M.~Ackermann, J.~Adams, J.~A. Aguilar, M.~Ahlers, M.~Ahrens,
+  I.~Al Samarai, D.~Altmann, K.~Andeen, T.~Anderson, and et~al.
+\newblock Constraints on galactic neutrino emission with seven years of icecube
+  data.
+\newblock {\em The Astrophysical Journal}, 849(1):67, Oct 2017.
+
+\bibitem{Fang_2020}
+Ke~Fang, Arka Banerjee, Eric Charles, and Yuuki Omori.
+\newblock A cross-correlation study of high-energy neutrinos and tracers of
+  large-scale structure.
+\newblock {\em The Astrophysical Journal}, 894(2):112, May 2020.
+
+\bibitem{liu2021searching}
+Qinrui Liu and Ali Kheirandish.
+\newblock Searching for time-dependent high-energy neutrino emission from x-ray
+  binaries with icecube, 2021.
+
 \bibitem{AustinThesis}
 Austin~William Schneider.
 \newblock {\em Precision measurements of the astrophysical neutrino flux}.
@@ -51,11 +69,11 @@ Alessandro De~Angelis and Mario Pimenta.
 \newblock Undergraduate Lecture Notes in Physics (ULNP). Springer, Cham, 2nd
   edition.
 
-\bibitem{Yuan_2011}
-Qiang Yuan, Peng-Fei Yin, Xue-Feng Wu, Xiao-Jun Bi, Siming Liu, and Bing Zhang.
-\newblock A {STATISTICAL} {MODEL} {FOR} {THE} $\upgamma$-{RAY} {VARIABILITY}
-  {OF} {THE} {CRAB} {NEBULA}.
-\newblock {\em The Astrophysical Journal}, 730(2):L15, mar 2011.
+\bibitem{chen2009origin}
+Pisin Chen and K.~D. Hoffman.
+\newblock Origin and evolution of cosmic accelerators - the unique discovery
+  potential of an uhe neutrino telescope: Astronomy decadal survey (2010-2020)
+  science white paper, 2009.
 
 \bibitem{stettner2019measurement}
 Joeran Stettner.
@@ -389,6 +407,127 @@ Giulia Illuminati and Alexander Plavin.
 \newblock {ANTARES search for neutrino flares from the direction of
   radio-bright blazars}.
 \newblock {\em PoS}, ICRC2021:972, 2021.
+
+\bibitem{RONG_design}
+J.A. Aguilar, P.~Allison, J.J. Beatty, H.~Bernhoff, D.~Besson, N.~Bingefors,
+  O.~Botner, S.~Buitink, K.~Carter, B.A. Clark, and et~al.
+\newblock Design and sensitivity of the radio neutrino observatory in greenland
+  (rno-g).
+\newblock {\em Journal of Instrumentation}, 16(03):P03025, Mar 2021.
+
+\bibitem{Wissel_2020}
+Stephanie Wissel, Andrés Romero-Wolf, Harm Schoorlemmer, Washington
+  R.~Carvalho Jr., Jaime Alvarez-Muñiz, Enrique Zas, Austin Cummings, Cosmin
+  Deaconu, Kaeli Hughes, Andrew Ludwig, and et~al.
+\newblock Prospects for high-elevation radio detection of 0>10 pev tau
+  neutrinos.
+\newblock {\em Journal of Cosmology and Astroparticle Physics},
+  2020(11):065–065, Nov 2020.
+
+\bibitem{Gen2paper}
+M.~G. Aartsen, M.~Ackermann, J.~Adams, J.~A. Aguilar, M.~Ahlers, M.~Ahrens,
+  C.~Alispach, K.~Andeen, T.~Anderson, I.~Ansseau, G.~Anton, C.~Argüelles,
+  T.~C. Arlen, J.~Auffenberg, S.~Axani, P.~Backes, H.~Bagherpour, X.~Bai,
+  A.~Balagopal V., A.~Barbano, I.~Bartos, B.~Bastian, V.~Baum, S.~Baur, R.~Bay,
+  J.~J. Beatty, K.~H. Becker, J.~Becker Tjus, S.~BenZvi, D.~Berley,
+  E.~Bernardini, D.~Z. Besson, G.~Binder, D.~Bindig, E.~Blaufuss, S.~Blot,
+  C.~Bohm, M.~Bohmer, M.~Börner, S.~Böser, O.~Botner, J.~Böttcher,
+  E.~Bourbeau, J.~Bourbeau, F.~Bradascio, J.~Braun, S.~Bron,
+  J.~Brostean-Kaiser, A.~Burgman, J.~Buscher, R.~S. Busse, M.~Bustamante,
+  T.~Carver, C.~Chen, P.~Chen, E.~Cheung, D.~Chirkin, B.~Clark, K.~Clark,
+  L.~Classen, A.~Coleman, G.~H. Collin, A.~Connolly, J.~M. Conrad, P.~Coppin,
+  P.~Correa, D.~F. Cowen, R.~Cross, P.~Dave, C.~Deaconu, J.~P. A.~M. de~André,
+  C.~De Clercq, S.~DeKockere, J.~J. DeLaunay, H.~Dembinski, K.~Deoskar, S.~De
+  Ridder, P.~Desiati, K.~D. de~Vries, G.~de~Wasseige, M.~de~With, T.~DeYoung,
+  A.~Diaz, J.~C. Díaz-Vélez, H.~Dujmovic, M.~Dunkman, M.~A. DuVernois,
+  E.~Dvorak, B.~Eberhardt, T.~Ehrhardt, P.~Eller, R.~Engel, J.~J. Evans, P.~A.
+  Evenson, S.~Fahey, K.~Farrag, A.~R. Fazely, J.~Felde, K.~Filimonov,
+  C.~Finley, A.~Franckowiak, E.~Friedman, A.~Fritz, T.~K. Gaisser,
+  J.~Gallagher, E.~Ganster, D.~Garcia-Fernandez, S.~Garrappa, A.~Gartner,
+  L.~Gerhardt, R.~Gernhaeuser, K.~Ghorbani, T.~Glauch, T.~Glüsenkamp,
+  A.~Goldschmidt, J.~G. Gonzalez, D.~Grant, Z.~Griffith, M.~Günder,
+  M.~Gündüz, C.~Haack, A.~Hallgren, L.~Halve, F.~Halzen, K.~Hanson,
+  J.~Haugen, A.~Haungs, D.~Hebecker, D.~Heereman, P.~Heix, K.~Helbing,
+  R.~Hellauer, F.~Henningsen, S.~Hickford, J.~Hignight, G.~C. Hill, K.~D.
+  Hoffman, B.~Hoffmann, R.~Hoffmann, T.~Hoinka, B.~Hokanson-Fasig,
+  K.~Holzapfel, K.~Hoshina, F.~Huang, M.~Huber, T.~Huber, T.~Huege, K.~Hughes,
+  K.~Hultqvist, M.~Hünnefeld, R.~Hussain, S.~In, N.~Iovine, A.~Ishihara, G.~S.
+  Japaridze, M.~Jeong, K.~Jero, B.~J.~P. Jones, F.~Jonske, R.~Joppe,
+  O.~Kalekin, D.~Kang, W.~Kang, A.~Kappes, D.~Kappesser, T.~Karg, M.~Karl,
+  A.~Karle, T.~Katori, U.~Katz, M.~Kauer, A.~Keivani, J.~L. Kelley,
+  A.~Kheirandish, J.~Kim, T.~Kintscher, J.~Kiryluk, T.~Kittler, S.~R. Klein,
+  R.~Koirala, H.~Kolanoski, L.~Köpke, C.~Kopper, S.~Kopper, D.~J. Koskinen,
+  M.~Kowalski, C.~B. Krauss, K.~Krings, G.~Krückl, N.~Kulacz, N.~Kurahashi,
+  A.~Kyriacou, M.~Labare, J.~L. Lanfranchi, M.~J. Larson, U.~Latif, F.~Lauber,
+  J.~P. Lazar, K.~Leonard, A.~Leszczynska, M.~Leuermann, Q.~R. Liu, E.~Lohfink,
+  J.~LoSecco, C.~J.~Lozano Mariscal, L.~Lu, F.~Lucarelli, J.~Lünemann,
+  W.~Luszczak, Y.~Lyu, W.~Y. Ma, J.~Madsen, G.~Maggi, K.~B.~M. Mahn, Y.~Makino,
+  P.~Mallik, K.~Mallot, S.~Mancina, S.~Mandalia, I.~C. Maris, S.~Marka,
+  Z.~Marka, R.~Maruyama, K.~Mase, R.~Maunu, F.~McNally, K.~Meagher, M.~Medici,
+  A.~Medina, M.~Meier, S.~Meighen-Berger, T.~Menne, G.~Merino, T.~Meures,
+  J.~Micallef, G.~Momenté, T.~Montaruli, R.~W. Moore, R.~Morse, M.~Moulai,
+  P.~Muth, R.~Nagai, J.~Nam, U.~Naumann, G.~Neer, A.~Nelles, H.~Niederhausen,
+  S.~C. Nowicki, D.~R. Nygren, A.~Obertacke Pollmann, M.~Oehler, A.~Olivas,
+  A.~O'Murchadha, E.~O'Sullivan, T.~Palczewski, H.~Pandya, D.~V. Pankova,
+  L.~Papp, N.~Park, P.~Peiffer, C.~Pérez de~los Heros, T.~C. Petersen,
+  S.~Philippen, D.~Pieloth, E.~Pinat, J.~L. Pinfold, A.~Pizzuto, I.~Plaisier,
+  M.~Plum, A.~Porcelli, P.~B. Price, G.~T. Przybylski, C.~Raab, A.~Raissi,
+  M.~Rameez, L.~Rauch, K.~Rawlins, I.~C. Rea, R.~Reimann, B.~Relethford,
+  M.~Renschler, G.~Renzi, E.~Resconi, W.~Rhode, M.~Richman, M.~Riegel,
+  S.~Robertson, M.~Rongen, C.~Rott, T.~Ruhe, D.~Ryckbosch, D.~Rysewyk, I.~Safa,
+  S.~E.~Sanchez Herrera, A.~Sandrock, J.~Sandroos, P.~Sandstrom, M.~Santander,
+  S.~Sarkar, S.~Sarkar, K.~Satalecka, M.~Schaufel, H.~Schieler, P.~Schlunder,
+  T.~Schmidt, A.~Schneider, J.~Schneider, F.~G. Schröder, L.~Schumacher,
+  S.~Sclafani, D.~Seckel, S.~Seunarine, M.~H. Shaevitz, S.~Shefali, M.~Silva,
+  D.~Smith, R.~Snihur, J.~Soedingrekso, D.~Soldin, S.~Söldner-Rembold,
+  M.~Song, D.~Southall, G.~M. Spiczak, C.~Spiering, J.~Stachurska,
+  M.~Stamatikos, T.~Stanev, R.~Stein, P.~Steinmüller, J.~Stettner, A.~Steuer,
+  T.~Stezelberger, R.~G. Stokstad, A.~Stößl, N.~L. Strotjohann, T.~Stürwald,
+  T.~Stuttard, G.~W. Sullivan, I.~Taboada, A.~Taketa, H.~K.~M. Tanaka,
+  F.~Tenholt, S.~Ter-Antonyan, A.~Terliuk, S.~Tilav, L.~Tomankova, C.~Tönnis,
+  J.~Torres, S.~Toscano, D.~Tosi, A.~Trettin, M.~Tselengidou, C.~F. Tung,
+  A.~Turcati, R.~Turcotte, C.~F. Turley, B.~Ty, E.~Unger, M.~A.~Unland
+  Elorrieta, M.~Usner, J.~Vandenbroucke, W.~Van Driessche, D.~van Eijk, N.~van
+  Eijndhoven, S.~Vanheule, A.~Vieregg, J.~van Santen, D.~Veberic, M.~Vraeghe,
+  C.~Walck, A.~Wallace, M.~Wallraff, N.~Wandkowsky, T.~B. Watson, C.~Weaver,
+  A.~Weindl, M.~J. Weiss, J.~Weldert, C.~Welling, C.~Wendt, J.~Werthebach,
+  B.~J. Whelan, N.~Whitehorn, K.~Wiebe, C.~H. Wiebusch, L.~Wille, D.~R.
+  Williams, L.~Wills, S.~Wissel, M.~Wolf, J.~Wood, T.~R. Wood, K.~Woschnagg,
+  G.~Wrede, S.~Wren, D.~L. Xu, X.~W. Xu, Y.~Xu, J.~P. Yanez, G.~Yodh,
+  S.~Yoshida, T.~Yuan, and M.~Zöcklein.
+\newblock Neutrino astronomy with the next generation icecube neutrino
+  observatory, 2019.
+
+\bibitem{abarr2021payload}
+Q.~Abarr, P.~Allison, J.~Ammerman Yebra, J.~Alvarez-Muñiz, J.~J. Beatty, D.~Z.
+  Besson, P.~Chen, Y.~Chen, X.~Cheng, J.~M. Clem, A.~Connolly, L.~Cremonesi,
+  C.~Deaconu, J.~Flaherty, D.~Frikken, P.~W. Gorham, C.~Hast, C.~Hornhuber,
+  J.~J. Huang, K.~Hughes, A.~Hynous, Y.~Ku, C.~Y. Kuo, T.~C. Liu, Z.~Martin,
+  C.~Miki, J.~Nam, R.~J. Nichol, K.~Nishimura, A.~Novikov, A.~Nozdrina,
+  E.~Oberla, S.~Prohira, R.~Prechelt, B.~F. Rauch, J.~M. Roberts,
+  A.~Romero-Wolf, J.~W. Russell, D.~Seckel, J.~Shiao, D.~Smith, D.~Southall,
+  G.~S. Varner, A.~G. Vieregg, S.~H. Wang, Y.~H. Wang, S.~A. Wissel, R.~Young,
+  E.~Zas, and A.~Zeolla.
+\newblock The payload for ultrahigh energy observations (pueo): A white paper,
+  2021.
+
+\bibitem{olinto2021poemma}
+A.~V. Olinto, J.~Krizmanic, J.~H. Adams, R.~Aloisio, L.~A. Anchordoqui,
+  A.~Anzalone, M.~Bagheri, D.~Barghini, M.~Battisti, D.~R. Bergman, M.~E.
+  Bertaina, P.~F. Bertone, F.~Bisconti, M.~Bustamante, F.~Cafagna, R.~Caruso,
+  M.~Casolino, K.~Černý, M.~J. Christl, A.~L. Cummings, I.~De Mitri,
+  R.~Diesing, R.~Engel, J.~Eser, K.~Fang, F.~Fenu, G.~Filippatos, E.~Gazda,
+  C.~Guepin, A.~Haungs, E.~A. Hays, E.~G. Judd, P.~Klimov, V.~Kungel,
+  E.~Kuznetsov, Š. Mackovjak, D.~Mandát, L.~Marcelli, J.~McEnery,
+  G.~Medina-Tanco, K.~D. Merenda, S.~S. Meyer, J.~W. Mitchell, H.~Miyamoto,
+  J.~M. Nachtman, A.~Neronov, F.~Oikonomou, Y.~Onel, G.~Osteria, A.~N. Otte,
+  E.~Parizot, T.~Paul, M.~Pech, J.~S. Perkins, P.~Picozza, L.~W. Piotrowski,
+  Z.~Plebaniak, G.~Prévôt, P.~Reardon, M.~H. Reno, M.~Ricci, O.~Romero
+  Matamala, F.~Sarazin, P.~Schovánek, V.~Scotti, K.~Shinozaki, J.~F. Soriano,
+  F.~Stecker, Y.~Takizawa, R.~Ulrich, M.~Unger, T.~M. Venters, L.~Wiencke,
+  D.~Winn, R.~M. Young, and M.~Zotov.
+\newblock The poemma (probe of extreme multi-messenger astrophysics)
+  observatory, 2021.
 
 \bibitem{barlow_1989}
 R~J Barlow.

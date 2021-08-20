@@ -20,45 +20,45 @@ Warning--empty journal in 10yrpublicdata
 Warning--empty journal in hese7yr
 Warning--empty school in TessaThesis
 Warning--empty year in TessaThesis
-You've used 55 entries,
+You've used 63 entries,
             1791 wiz_defined-function locations,
-            774 strings with 19674 characters,
-and the built_in function-call counts, 17903 in all, are:
-= -- 966
-> -- 1975
+            809 strings with 29332 characters,
+and the built_in function-call counts, 26358 in all, are:
+= -- 1067
+> -- 3683
 < -- 3
-+ -- 682
-- -- 627
-* -- 1812
-:= -- 3292
-add.period$ -- 157
-call.type$ -- 55
-change.case$ -- 50
++ -- 1254
+- -- 1191
+* -- 2985
+:= -- 5140
+add.period$ -- 176
+call.type$ -- 63
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 64
-duplicate$ -- 506
-empty$ -- 1166
-format.name$ -- 627
-if$ -- 3534
+cite$ -- 72
+duplicate$ -- 558
+empty$ -- 1324
+format.name$ -- 1191
+if$ -- 4932
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 46
-newline$ -- 268
-num.names$ -- 54
-pop$ -- 153
+int.to.str$ -- 63
+missing$ -- 49
+newline$ -- 303
+num.names$ -- 62
+pop$ -- 191
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 270
+skip$ -- 301
 stack$ -- 0
-substring$ -- 701
-swap$ -- 110
+substring$ -- 752
+swap$ -- 118
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 90
-width$ -- 57
-write$ -- 570
+while$ -- 101
+width$ -- 65
+write$ -- 643
 (There were 9 warnings)

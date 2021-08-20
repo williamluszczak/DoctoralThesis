@@ -10,12 +10,12 @@ Cosmic rays are high energy protons and atomic nuclei, originating from outside 
 \label{CRSpectEq}
 \end{equation}
 
-where N describes the number of cosmic ray particles, E is their energy, and x is an energy-dependent spectral index. The spectrum has several notable features, shown in figure~\ref{fig:CRSpectrum}. At lower energies (below $10^16$ eV), the spectrum is well described by an $E^{-2.7}$ flux. At $10^16$ eV, the spectrum softens to $E^{-3.1}$, commonly referred to as the "knee". At even higher energies (around $10^18.5$ eV), the spectrum hardens again. This region is referred to as the "ankle", and is thought to correspond to the point where extragalactic cosmic rays begin to dominate the flux. 
+where N describes the number of cosmic ray particles, E is their energy, and x is an energy-dependent spectral index. The spectrum has several notable features, shown in figure~\ref{fig:CRSpectrum}. At lower energies (below $3 \times 10^{15}$ eV), the spectrum is well described by an $E^{-2.7}$ flux. At $3 \times 10^{15}$ eV, the spectrum softens to $E^{-3.1}$, commonly referred to as the "knee", referring to the point where cosmic rays are energetic enough to no longer be contained by the galactic magnetic field. At even higher energies (around $10^{18.5}$ eV), the spectrum hardens again. This region is referred to as the "ankle", and is thought to correspond to the point where extragalactic cosmic rays begin to dominate the flux. 
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{figs/CR_Spectrum.png}
-\caption{A plot of the cosmic ray spectrum assembled from observations from a variety of experiments. Major features visible are the knee ($\approx 10^{16} $ eV), and the ankle ($\approx 10^{19}$ eV). ~\cite{AustinThesis} }
+\caption{A plot of the cosmic ray spectrum assembled from observations from a variety of experiments. Major features visible are the knee ($\approx 10^{15} $ eV), and the ankle ($\approx 10^{18.5}$ eV). ~\cite{AustinThesis} }
 \label{fig:CRSpectrum}
 \end{figure}
 
@@ -54,7 +54,7 @@ where $\Gamma=\alpha+1$, $\alpha\approx \frac{3P_e}{4 \beta}$, and $P_e$ is the 
 We can additionally derive constraints on the maximum energy to which a particle can be accelerated based off the magnetic field intensity, $B$, and the size of the accelerating region, $R$ (eq.~\ref{HillasCond}):
 
 \begin{equation}
-    E_{max} = eBR \approx 10^{21} [\frac{R}{\textrm{1 pc}}][\frac{B}{\textrm{1 Gauss}}] \textrm{ eV}
+    E_{max} < eBR \approx 10^{21} [\frac{R}{\textrm{1 pc}}][\frac{B}{\textrm{1 Gauss}}] \textrm{ eV}
 \label{HillasCond}
 \end{equation}
 
@@ -69,7 +69,7 @@ This is known as \textit{Hillas' condition}, and can inform us about the propert
 
 
 \section{Photons}
-Perhaps the oldest and most well-studied astrophysical messenger, photons have the useful property of being electrically neutral. Unlike cosmic rays, their paths are not bent by magnetic fields, and the arrival directions of photons can be used to identify their origin, particularly at high energies due to their good angular resolution. Photons additionally span a large energy range, and can be used to explore a wide variety of astrophysical production processes. For the purposes of this work, we are most interested in the highest energy photons (gamma rays, with energies greater than 100 keV), which can be produced through either leptonic or hadronic processes.
+Perhaps the oldest and most well-studied astrophysical messenger, photons have the useful property of being electrically neutral. Unlike cosmic rays, their paths are not bent by magnetic fields, and the arrival directions of photons can be used to identify their origin due to their good angular resolution. Photons additionally span a large energy range, and can be used to explore a wide variety of astrophysical production processes. For the purposes of this work, we are most interested in the highest energy photons (gamma rays, with energies greater than 100 keV), which can be produced through either leptonic or hadronic processes.
 
 \subsection{Leptonic Radiative Processes}
 While photons cannot be directly accelerated by electric and magnetic fields, there are a variety of mechanisms by which processes involving leptons can produce high energy photons. 
@@ -87,7 +87,13 @@ While photons cannot be directly accelerated by electric and magnetic fields, th
         \frac{\lambda'-\lambda}{\lambda}=\frac{\hbar\omega}{m_e c^2}(1 - \cos\alpha)
     \label{compeq}
     \end{equation}
-    Where $\lambda'$ and $\lambda$ correspond to the final and initial photon wavelengths, and $\alpha$ is the deflection angle of the photon. If a low energy photon collides with a high energy electron, the energy of the photon may exit with more energy than it began with, providing an effective mechanism for increasing the photon energy. 
+    where $\lambda'$ and $\lambda$ correspond to the final and initial photon wavelengths, and $\alpha$ is the deflection angle of the photon. If a low energy photon collides with a high energy electron, the energy of the photon may exit with more energy than it began with, providing an effective mechanism for increasing the photon energy. 
+
+    \item \textbf{Bremsstrahlung:} Particles deflected by the electric field of the material they are traveling through emit photons, referred to as "bremsstrahlung". The fractional energy loss for a high energy electron due to bremsstrahlung can be described by:
+    \begin{equation}
+        \frac{1}{E}\frac{dE}{dX} \simeq -\frac{1}{X_0}
+    \end{equation}
+    where $X_0$ is the radiation length of the material.
 \end{itemize}
 
 A combination of these two processes can produce the two peak structure typically seen in the spectrum of observed gamma ray sources. The lower energy peak is due to synchrotron radiation, while the higher energy peak corresponds to low energy photons being scattered to higher energies via inverse compton scattering. 
@@ -107,7 +113,7 @@ While leptonic processes can produce high energy gamma rays, hadronic processes 
 \label{hadeq}    
 \end{equation}
 
-Where X is the appropriate nucleus or hadron depending on the pions produced, and on average there is expected to be equal production of neutral and charged pions. Additionally, protons may interact with photons, providing an additional path to pion production (eq. \ref{hadeq2} and \ref{hadeq3}):
+Where X is the appropriate nucleus or hadron depending on the pions produced, and on average there is expected to be equal production of neutral, positive, and negative charged pions. Additionally, protons may interact with photons, providing an additional path to pion production (eq. \ref{hadeq2} and \ref{hadeq3}):
 
 \begin{equation}
     p + \gamma \rightarrow \Delta^+ \rightarrow \pi^0 + p
@@ -125,7 +131,7 @@ Gamma rays are a robust astrophysical messenger. As previously mentioned, photon
 
 Gamma rays are not without their limitations, however. Note that while at the highest energies gamma rays may be produced by both leptonic and hadronic processes, only hadronic processes are expected to additionally produce neutrinos and cosmic rays. For this reason, high energy gamma rays alone cannot be used to identify the source of high energy cosmic rays. 
 
-Additionally, high energy gamma rays may also interact electromagnetically with the ambient radiation in the universe, undergoing pair production (eq. \ref{ppeq}):
+Additionally, high energy gamma rays ($E>100$ GeV) may also interact electromagnetically with the ambient radiation in the universe, undergoing pair production (eq. \ref{ppeq}):
 
 \begin{equation}
     \gamma_{VHE} + \gamma_{CMB} \rightarrow e^+ + e^-
@@ -137,7 +143,7 @@ This interaction can occur between high energy gamma rays and photons from the C
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{figs/photevthorizon.png}
-\caption{A plot of the photon and cosmic ray event horizons, showing the regions/energy scales visible using observations originating from photons (blue) and cosmic rays (red). Pair production of high energy photons with the ambient radiation in the universe prevents photon observations at long distances and high energies, including much of the energy scale below the highest observed cosmic ray energy. Also note that the photon event horizon can prevent us from studying the highest energy photons from AGN~\cite{Yuan_2011}. }
+\caption{A plot of the photon and cosmic ray event horizons, showing the regions/energy scales visible using observations originating from photons (blue) and cosmic rays (red). Pair production of high energy photons with the ambient radiation in the universe prevents photon observations at long distances and high energies, including much of the energy scale below the highest observed cosmic ray energy. Also note that the photon event horizon can prevent us from studying the highest energy photons from AGN~\cite{chen2009origin}. }
 \label{fig:photeh}
 \end{figure}
 
@@ -158,7 +164,7 @@ Neutrinos in astrophysical sources are produced via charged pion decay from pion
 
 In either case, note that the expected flavor ratio of the neutrinos and anti-neutrinos produced at the source is $\nu_e : \nu_{\mu} : \nu_{\tau} = 1 : 2 : 0$. Combining this initial flavor ratio with neutrino oscillations over cosmic distances produces an expected observed astrophysical neutrino flavor ratio of $\nu_e : \nu_{\mu} : \nu_{\tau} = 1 : 1 : 1$.
 
-Neutrinos are also produced by cosmic rays interacting with the Earth's atmosphere. This is referred to as the atmospheric neutrino flux, and has contributions both from pion decay ($\pi^+ \rightarrow \nu_{\mu} + \mu^+$, $\pi^- \rightarrow \bar{\nu_{\mu}} + \mu^-$), as well as kaon decay ($K^0_L \rightarrow \pi^\pm+ e^\mp +\nu_e$, $K^0_L \rightarrow \pi^\pm+ \mu^\mp +\nu_\mu$, $K^+ \rightarrow \mu^+ +\nu_\mu$, $K^+ \rightarrow \pi^0 + e^+ +\nu_e$, $K^+ \rightarrow \pi^0 + \mu^+ +\nu_\mu$). Below 100 TeV, the resultant spectrum closely follows that of cosmic rays, with a spectral index of $\gamma_{atmos}=2.7$. At higher energies the shower mesons are able to travel further in the atmosphere, giving them an increased opportunity to interact and steepening the spectral index to $\gamma_{atmos}=3.7$. The atmospheric neutrino flux exists as an irreducible background for many studies of the origin of astrophysical neutrinos. 
+Neutrinos are also produced by cosmic rays interacting with the Earth's atmosphere. This is referred to as the atmospheric neutrino flux, and has contributions both from pion decay ($\pi^+ \rightarrow \nu_{\mu} + \mu^+$, $\pi^- \rightarrow \bar{\nu_{\mu}} + \mu^-$), as well as kaon decay ($K^0_L \rightarrow \pi^\pm+ e^\mp +\nu_e$, $K^0_L \rightarrow \pi^\pm+ \mu^\mp +\nu_\mu$, $K^+ \rightarrow \mu^+ +\nu_\mu$, $K^+ \rightarrow \pi^0 + e^+ +\nu_e$, $K^+ \rightarrow \pi^0 + \mu^+ +\nu_\mu$). The resultant spectrum closely follows that of cosmic rays, with a spectral index of $\gamma_{atmos}=2.7$. At higher energies the shower mesons are able to travel further in the atmosphere, giving them an increased opportunity to interact and steepening the spectral index to $\gamma_{atmos}=3.7$, further reducing the atmospheric neutrino flux contribution at high energies. The atmospheric neutrino flux exists as an irreducible background for many studies of the origin of astrophysical neutrinos. 
 
 \subsection{Observed Neutrino Spectrum}
 Both the astrophysical and atmospheric neutrino fluxes have been observed in data from the IceCube detector, with the astorphysical neutrino spectral index being measured to be $\gamma_{astro} \approx 2.28$ \cite{stettner2019measurement}.  While astrophysical and atmospheric neutrinos are largely indistinguishable on an individual event basis, the difference in spectra between the two populations ($\gamma_{astro} \approx 2.28$, $\gamma_{atmos} \approx 3.7$) allows us to distinguish between the two on a statistical basis. Higher energy events are more likely to be astrophysical in origin, and an equal share of astrophysical and atmospheric neutrinos can be expected at $\approx$ 200 TeV. Currently, the source(s) of the astrophysical neutrino flux have yet to be identified. For this reason, the observed astrophysical neutrino flux is commonly referred to as the "diffuse" astrophysical neutrino flux (as opposed to a "point source" flux, where specific astrophysical objects that are producing neutrino are identified).
@@ -181,7 +187,7 @@ Since neutrinos can be used as an indicator of hadronic processes in astrophysic
 
 An active galactic nucleus (AGN) is a compact region at the center of a galaxy displaying elevated electromagnetic emission, such that the additional luminosity cannot be attributed to stars. The luminosity is expected to originate from the accretion disk surrounding a supermassive black hole at the center of the galaxy, where conditions are thought to be ideal for high-energy particle acceleration and production.
 
-The angle at which the AGN is viewed relative to its jet determines its exact classification, as can be seen in figure \ref{fig:AGNfig}. If the AGN is viewed "down" the jet (i.e. the jet is directed at Earth), the AGN is seen to be particularly luminous and is referred to as a blazar. Blazars can be further divided into two subclasses: flat spectrum radio quasars (FSRQ), which have luminous broad emission lines and continuous thermal emission, and BL-Lacs, which have weak or absent broad emission lines. AGN viewed off-axis fall into a variety of other classifications, with further sub-classification being defined by the spectrum of the AGN in various wavelength bands.
+The presence and angle relative to earth of the AGN jet (a beam of outflowing ionized matter extending along the axis of rotation) determines its exact classification, as can be seen in figure \ref{fig:AGNfig}. If the AGN is viewed "down" the jet (i.e. the jet is directed at Earth), the AGN is seen to be particularly luminous and is referred to as a blazar or BL Lac object. Blazars can be further divided into two subclasses: flat spectrum radio quasars (FSRQ), which have luminous broad emission lines and continuous thermal emission, and BL-Lacs, which have weak or absent broad emission lines. AGN viewed off-axis fall into a variety of other classifications, with further sub-classification being defined by the spectrum of the AGN in various wavelength bands.
 
 \begin{figure}[h]
 \centering
@@ -225,9 +231,9 @@ It should additionally be noted that the catalog analysis mentioned above identi
 
 
 \subsection{Galactic Neutrino Sources}
-Though this work will primarily focus on searches for extra-galactic point sources of the astrophysical neutrino flux, potential neutrino emission from sources within our galaxy is an active area of study as well. Notably, one of the first confirmed sources of lower energy astrophysical neutrinos was Supernova 1987A \cite{Bionta:1987qt}, a supernova occurring within the Milky Way. Other galactic objects that are considered candidates for neutrino emission include supernova remnants \cite{snr_2020}, as well as pulsar wind nebula \cite{pwn_2020}, both of which are known to produce gamma rays. 
+Though this work will primarily focus on searches for extra-galactic point sources of the astrophysical neutrino flux, potential neutrino emission from sources within our galaxy is an active area of study as well. Notably, one of the first confirmed sources of lower energy astrophysical neutrinos was Supernova 1987A \cite{Bionta:1987qt}, a supernova occurring within the Large Magellanic Cloud. Other galactic objects that are considered candidates for neutrino emission include supernova remnants \cite{snr_2020}, as well as pulsar wind nebula \cite{pwn_2020}, both of which are known to produce gamma rays. 
 
-The majority of the galactic plane lies in the southern sky. Since neutrino telescopes make use of the earth to block out atmospheric muon backgrounds (see subsequent chapter), this means that to best study the galactic plane, a neutrino observatory located in the northern hemisphere would be required. While there are several such telescopes either planned or under construction \cite{Agostini_2020}\cite{kappes2007km3net}, they have yet to reach effective volumes comparable to the existing IceCube observatory (located in the southern hemisphere). 
+The galactic center and the majority of galactic source candidates lie in the southern hemisphere. Since neutrino telescopes make use of the earth to block out atmospheric muon backgrounds (see subsequent chapter), this means that to best study the galactic plane, a neutrino observatory located in the northern hemisphere would be required. While there are several such telescopes either planned or under construction \cite{Agostini_2020}\cite{kappes2007km3net}, they have yet to reach effective volumes comparable to the existing IceCube observatory (located in the southern hemisphere). 
 
 \subsection{Constraints on Neutrino Source Populations from Diffuse Measurements}
 It is important to keep in mind that whatever the sources of astrophysical neutrinos may be, they must combine to reproduce the measured diffuse astrophysical neutrino flux. The current best fit astrophysical neutrino spectrum, assuming a single power law in energy, is given as (eq. \ref{diffuse_fit})~\cite{stettner2019measurement}:
@@ -237,7 +243,7 @@ It is important to keep in mind that whatever the sources of astrophysical neutr
 \label{diffuse_fit}
 \end{equation}
 
-This places constraints on the density and luminosity of potential astrophysical neutrino source populations. If a candidate source population has sources that are too numerous and/or too bright, then that source population would produce a higher flux of astrophysical neutrinos than has been observed, and an explanation of the nondetection of the additional flux is required. Similarly, if sources are too sparse and/or too dim, then such a source class is incapable of explaining the entirety of the measured diffuse flux. 
+This places constraints on the density and luminosity of potential astrophysical neutrino source populations. If a candidate source population has sources that are too numerous and/or too bright, that that source class would likely have already been detected by existing neutrino point source searches, or in more extreme cases, that source population would produce a higher flux of astrophysical neutrinos than has been observed, and an explanation of the nondetection of the additional flux is required. Similarly, if sources are too sparse and/or too dim, then such a source class is incapable of explaining the entirety of the measured diffuse flux. 
 
 These constraints can be summarized in figure \ref{fig:muraseplot}, showing the band of the measured diffuse flux in source density/luminosity space, as well as several commonly discussed source populations. It should be noted that in this plot, the luminosity values for various source populations are derived from the electromagnetic luminosity $L_\gamma$. In principle, the true ratio $L_\nu/L_\gamma$ remains unknown, and consequently the positions of sources along the luminosity axis may shift according to this value. 
 
@@ -245,7 +251,7 @@ These constraints can be summarized in figure \ref{fig:muraseplot}, showing the 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{figs/muraseplot.png}
-\caption{Constraints on potential populations of sources of the high energy astrophysical neutrino flux. The red band represents combinations of source density and luminosity that are consistent with the measured astrophysical neutrino flux. Source populations that lie above this band are too bright and/or too numerous, while source below this band are too dim/too sparse. Also shown are limits derived from the non-observation of neutrino sources in time-integrated analyses performed by the IceCube collaboration as of 2016, as well as a projected set of limits that would be associated with a non-observation from IceCube-Gen2~\cite{Murase_constraints}. }
+\caption{Constraints on potential populations of sources of the high energy astrophysical neutrino flux. The red band represents combinations of source density and luminosity that are consistent with the measured astrophysical neutrino flux. Source populations that lie above this band are too bright and/or too numerous, while source below this band are too dim/too sparse. Also shown are limits derived from the non-observation of neutrino sources in time-integrated analyses performed by the IceCube collaboration as of 2016, as well as a projected set of limits that would be associated with a non-observation from IceCube-Gen2. Stars mark the expected properties of various source classes, as calculated in~\cite{Murase_constraints}. }
 \label{fig:muraseplot}
 \end{figure}
 
